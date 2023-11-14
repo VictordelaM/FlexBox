@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Anton";  
+    src: url(../Fonts/Anton/Anton-Regular.ttf);
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1600534220378-df36338afc40?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.519);
+    color: beige;
+    font-family: "Anton";
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-around ;
+}
+
+header ul li{
+    margin: 10px; 
+
+}
+
+body header h1{
+    align-items: flex-start;
+    margin-right: 30%;
+}

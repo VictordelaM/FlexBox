@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Lato";
+    src: url(../Fonts/Lato/Lato-Black.ttf);
+}
+
+body{
+    background-color: #D9E8E5;
+}
+
+header{
+    display: flex;
+    background-color: white;
+    margin-left: -7px;
+    margin-top: -30px;
+    padding-top: 15px;
+    width: 100vw;
+    justify-content: space-between;
+    position: fixed;
+
+}
+
+header #header_left{
+    display: flex;
+    gap: 32px;
+}
+
+header #header_left p{
+    color: #000;
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 63px;
+}
+
+header #header_left p::before{
+    content: url(../images/logo.png.png);
+}
+
+header #header_left ul{
+    display: flex;
+    list-style: none;
+    gap: 14px;
+    color: #000;
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+header #header_right ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 14px;
+    color: #000;
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 3.959151610369207vw;
+    margin-top: 30px;
+}
+
+main{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+
+}
+
+main section p{
+    color: #000;
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main section div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+

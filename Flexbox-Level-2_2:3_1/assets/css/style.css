@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "raleway";
+    src: url(../Fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+
+body{
+    height: 2vh;
+}
+
+body header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+    height: 76px;
+}
+
+body header nav  {
+    display: flex;
+    justify-content: space-around;
+    color: beige;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding-bottom: 38px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-around ;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    font-family: "raleway";
+    gap: 0 40px;
+    margin-top: 25px;
+    }
+
+
+header ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+header ul li a:hover{
+    color: #337ab7;
+}
+
+header nav .logo {
+    display: flex;
+    font-size: 24px;
+    flex-direction: column;
+    align-self: center;
+    text-decoration:none;
+    color: #666;
+    font-family: "raleway";
+    margin-top: 5px;
+}
+
+header nav .logo:hover{
+    color: #333;
+}
+
+main{
+    height: 90vh;
+    background-image: url(../images/photo-1443527216320-7e744084f5a7-1.jpg.png);
+    margin: 0 -0.75vw;
+    display:flex ;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+section{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+    margin: 50vh 0;
+}
+
+section h1{
+    color: #FFF;
+    text-align: center;
+    font-family: "raleway";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+section p{
+    color: #FFF;
+    text-align: center;
+    font-family: "raleway";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+section div button:first-of-type{
+    border: 2px solid #745CF9;
+    background: #745CF9;
+    color: #FFF;
+    text-align: center;
+    font-family: "raleway";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 200% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 15px 61.188px 15px 60.813px;
+    align-items: flex-start;
+}
+
+section div button:first-of-type:hover{
+    background: #5846c0c5;
+    border: 2px solid #5846c0c5;
+}
+
+section div button:last-of-type{
+    border: 2px solid #FFF;
+    display: inline-flex;
+    padding: 15px 61.188px 15px 60.813px;
+    align-items: flex-start;
+    display: inline-flex;
+    padding: 15px 42.375px 15px 41.625px;
+    align-items: flex-start;   
+    color: #FFF;
+    text-align: center;
+    font-family: "raleway";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 200% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+section div button:last-of-type:hover{
+    background-color: white;
+    color: black;
+}
